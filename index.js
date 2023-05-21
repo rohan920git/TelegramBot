@@ -12,10 +12,7 @@ bot.on('message',(message)=>{
     if(message.new_chat_participant){
         bot.sendMessage(chat_id,`thank you ${message.new_chat_participant.first_name} for joining us 😉😉`)
     }
-   if(message.text == "Iamkiran"){
-    bot.sendMessage(chat_id,`hello miss kiran how are you 😊😊`)
-
-   }
+  
    if(message.text == "Help"){
     bot.sendMessage(chat_id,`Hii ${message.from.first_name} how can I help you` )
    }
