@@ -16,9 +16,7 @@ bot.on('message',(message)=>{
    if(message.text == "Help"){
     bot.sendMessage(chat_id,`Hii ${message.from.first_name} how can I help you` )
    }
-   if(message.text == "suno"){
-    bot.sendMessage(chat_id,`haa kiran sunao` )
-   }
+  
    if(message.text == "Ky_kar_rhe_ho"){
     bot.sendMessage(chat_id,`aapse bat 😉😉😊😊` )
    }
